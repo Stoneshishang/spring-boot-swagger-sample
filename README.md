@@ -8,13 +8,13 @@ Postman header is: `Content-Type: application/json`
 
 Postmen Body - raw:
 
-                    ``` json
-                    {
-                    "id":"test1",
-                    "name":"Shang",
-                    "phone":"123-234-2345"
-                    }
-                    ```
+```json
+{
+  "id":"test1",
+  "name":"Shang",
+  "phone":"123-234-2345"
+}
+```
 
 http://localhost:8080/api/ HTTP GET to retrieve data.
 
