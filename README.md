@@ -4,25 +4,25 @@ This is a sample project of Swagger and Swagger-ui from Youtube, it is used to d
 
 http://localhost:8080/api/ HTTP POST to add content to API,
 
-header is: `Content-Type: application/json`
+Postman header is: `Content-Type: application/json`
 
-Body - row:
-``` json
-{
-"id":"test1",
-"name":"Shang",
-"phone":"123-234-2345"
-}
-```
+                    Body - raw:
+                    ``` json
+                    {
+                    "id":"test1",
+                    "name":"Shang",
+                    "phone":"123-234-2345"
+                    }
+                    ```
 
 http://localhost:8080/api/ HTTP GET to retrieve data.
 
-http://localhost:8080/v2/api-docs/ to view the API doc created by swagger.
+http://localhost:8080/v2/api-docs/ to **view** the API doc created by swagger.
 
 The 
 [Spring boot Tutorial](https://www.youtube.com/watch?v=gduKpLW_vdY&ab_channel=JavaBrains) is here,
 
-To access the swagger ui,
+To **access** the swagger ui,
 make sure the pom.xml has 
 
 ```xml
