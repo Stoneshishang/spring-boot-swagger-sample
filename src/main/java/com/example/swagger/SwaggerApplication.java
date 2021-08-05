@@ -12,4 +12,5 @@ public class SwaggerApplication {
         SpringApplication.run(SwaggerApplication.class, args);
     }
 
+
 }
